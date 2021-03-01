@@ -1,10 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## The pair of functions below allows to store the matrix and its inverse as a pair. 
 
 
-#  This function is de-facto used as an compound storage for a matrix, 
+
+#  This function makeCacheMatrix is de-facto used as an compound storage for a matrix, 
 #         which allows storing the the original matrix and its inverse in one object.
 
 #  Any matrix can stored in a dedicated object
@@ -55,9 +53,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
-
-#  the function takes the object (makeCacheMatrix type) and returns the inverse matrix 
+#  The cacheSolve function takes the object (makeCacheMatrix type) and returns the inverse matrix 
 cacheSolve <- function(x) {
 
   inv_matrix <- x$get_inverse_matrix()
