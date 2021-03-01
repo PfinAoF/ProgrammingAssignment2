@@ -26,7 +26,7 @@ As per request, there are two functions:
     
     
 2.  `cacheSolve`: This function returns the inverse of the original
-    matrix stored in the `makeCacheMatrix` object above. 
+    matrix stored in the `makeCacheMatrix` object above, e.g. **cacheSolve(testCacheMatrixObject)**. 
     
     If the inverse has already been calculated (and the original matrix has not changed), then
     `cacheSolve` should retrieves the inverse from the cache.
