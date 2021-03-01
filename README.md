@@ -9,11 +9,16 @@ As per request, there are two functions:
 
 1.  `makeCacheMatrix`: This function creates a special "matrix" object
     that can store (cache) its inverse.
-    Once the object is created - e.g. by **testCacheMatrixObject <- makeCacheMatrix(matrix(c(1,2,0,0,5,6,3,8,9),nrow = 3, ncol = 3))**, 
-     sub function _get_original_matrix_ returns the original matrix - e.g. **testCacheMatrixObject.get_original_matrix()** abd
-     sub function _change_original_matrix_ re-sets the original matrix to a new input - e.g. **testCacheMatrixObject.change_original_matrix()** abd
-     sub function _get_inverse_matrix_ returns the stored value of an inverted matrix - e.g. **testCacheMatrixObject.get_inverse_matrix()** abd
-     sub function _set_original_matrix_ stores the inverted matrix - e.g. **testCacheMatrixObject.set_original_matrix()** abd
+    
+      Once the object is created - e.g. by **testCacheMatrixObject <- makeCacheMatrix(matrix(c(1,2,0,0,5,6,3,8,9),nrow = 3, ncol = 3))**, 
+    
+      sub function _get_original_matrix_ returns the original matrix - e.g. **testCacheMatrixObject.get_original_matrix()** abd
+    
+      sub function _change_original_matrix_ re-sets the original matrix to a new input - e.g. **testCacheMatrixObject.change_original_matrix()** abd
+    
+      sub function _get_inverse_matrix_ returns the stored value of an inverted matrix - e.g. **testCacheMatrixObject.get_inverse_matrix()** abd
+    
+      sub function _set_original_matrix_ stores the inverted matrix - e.g. **testCacheMatrixObject.set_original_matrix()** abd
     
     
     
