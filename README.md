@@ -21,6 +21,8 @@ As per request, there are two functions:
       sub function _set_original_matrix_ stores the inverted matrix - e.g. **testCacheMatrixObject.set_original_matrix()** abd
     
     
+---------------------------------------    
+    
     
     
 2.  `cacheSolve`: This function returns the inverse of the original
